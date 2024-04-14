@@ -248,3 +248,14 @@ background-color: red ;
     background-color:  rgb(44, 12, 93);
     color: white;
 }
+
+
+.addressCard{
+    height: 545px;
+    width: 462px;
+    text-align: center;
+    margin-left: 142px;
+    margin-top: 50px;
+    border: solid black;
+    margin-right: 68px;
+}
