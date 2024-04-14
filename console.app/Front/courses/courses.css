@@ -1,0 +1,235 @@
+.top-header1{
+height: 70px;
+width: 3100px;
+background-color: rgb(214, 12, 12);
+text-align: center;
+color: white;
+
+}
+
+.top-header2{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(50, 12, 89);
+    text-align: center;
+    
+}
+
+
+.login{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.3s;
+}
+
+.login:link{
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-color: none;
+
+}
+.login:hover{
+    color: red;
+}
+
+.navHeader{
+    text-align: center;
+    padding-left: 30px;
+    display: flex;
+    width: 100%;
+}
+
+.navHeader li {
+    
+    list-style-type: none;
+}
+.navHeader li h1{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.navbar-nav a{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.coursesText{
+    text-align: center;
+    height: 260px;
+    width: 100%;
+}
+.coursesBlack{
+    text-align: center;
+    height: 260px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.elements{
+    width: 1504px;
+    height: 2000px;
+}
+
+.search1{
+    padding-top: 140px;
+}
+
+.searchBtn{
+    border-radius: 50%; border: 5px; background-color:  rgb(50, 12, 89); width: 30px; height: 30px; padding-top: 3px; margin-top: 40px; margin-left: 20px;
+    transition: 0.4s;
+}
+.searchBtn:hover{
+    background-color: red;
+}
+.square1{
+    background-color: rgb(44, 12, 93);
+    height: 80px; 
+    width: 300px;
+    color: white;
+}
+
+.triangle1{
+    height: 0;
+    width: 0;
+    border-bottom: 80px solid  rgb(44, 12, 93);
+    border-right: 50px solid transparent;
+}
+
+.subs{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+
+}
+
+.mediaBtn{
+    border-radius: 50%; border: 5px; background-color:  white; width: 30px; height: 30px; padding-top: 3px; margin-top: 40px; margin-left: 20px;
+    transition: 0.4s;
+    border-color: black;
+}
+
+.mediaBtn:hover{
+    background-color: red;
+}
+
+
+.footers{
+    width: 180px;
+    height: 340px;
+    padding-left: 0px;
+    padding-top: 50px;
+}
+
+.fList{
+    text-align: left;
+    color:rgb(75, 74, 74);;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.fBtn{
+text-decoration: none;
+color:rgb(75, 74, 74) ;
+transition: 0.3s;
+}
+
+.fBtn:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.end{
+    height: 60px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color:  rgb(44, 12, 93);
+}
+
+
+.readmore{
+            border: none;
+            color: white;
+            padding: 10px 27px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            background-color: red;
+            transition: 0.5s;
+}
+
+.readmore:hover{
+    background-color:  rgb(44, 12, 93) ;
+}
+
+
+
+.sendMessage{
+        border: none;
+        color: white;
+        padding: 10px 27px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color:  rgb(44, 12, 93);
+        transition: 0.5s;
+
+}
+
+.sendMessage:hover{
+background-color: red ;
+}
+
+
+.pL{
+    padding-left: 112px;
+}
+
+.srch1{
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+.searchBtn3{
+    background-color: rgb(221, 219, 219);
+
+    transition: 0.5s;
+}
+
+.searchBtn3:hover{
+    background-color: red;
+}
+
+.engList{
+    color: rgb(74, 74, 74);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:17px;
+    transition: 0.3s;
+    text-decoration: none;
+    
+}
+
+.engList:link{
+    text-decoration: none;
+}
+
+.engList:hover{
+    color:red;
+}
+
+.lilImage{
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+}
