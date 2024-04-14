@@ -228,8 +228,23 @@ background-color: red ;
     color:red;
 }
 
-.lilImage{
-    background-color: black;
-    opacity: 0.5;
+
+.tags{
+    border: none;
+        color: rgb(107, 106, 106);
+        padding: 6px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color:  white;
+        transition: 0.5s;
+        border: 1px solid rgb(122, 120, 120);
+}
+
+.tags:hover{
+    background-color:  rgb(44, 12, 93);
     color: white;
 }
