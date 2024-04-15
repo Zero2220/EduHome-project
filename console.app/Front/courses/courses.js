@@ -30,7 +30,7 @@ function createProductRow(product) {
         <div class="card">
             <img src="${product.image}" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">${product.name}</h5>
+                <a class="engList" href="${product.id}"><h5 class="card-title">${product.name}</h5></a>
                 <p class="card-text">I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness</p>
                 <button class="readmore">READ MORE</button>
             </div>
@@ -44,8 +44,15 @@ function createProductRow(product) {
         window.location.href = `course.html#${product.id}`;
     });
 
+    let engListLink = productCol.querySelector('.engList');
+    engListLink.addEventListener('click', function(event) {
+        event.preventDefault(); 
+        window.location.href = `course.html#${product.id}`;
+    });
+
     return productCol;
 }
+
 
 
 loadProducts();
